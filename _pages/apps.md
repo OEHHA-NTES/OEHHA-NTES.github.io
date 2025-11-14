@@ -40,7 +40,6 @@ Modern R implementation of the Leggett age-structured lead PBPK model with scena
 
 - **Screenshot:** _coming soon_
 
-
 ---
 
 ## Access & Notes
