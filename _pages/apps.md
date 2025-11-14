@@ -15,8 +15,8 @@ NTES maintains a small set of concise, open-source R/Shiny tools used for data e
 
 An R/Shiny dashboard for searching, filtering, and exporting harmonized chemical data (regulatory values, toxicology, production, and biomonitoring). Designed for quick triage and data exports.
 
-- **Demo:** https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/
-- **Code:** https://github.com/ScottCoffin/OEHHA-Data-Explorer
+- **Demo:** [https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/](https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/)
+- **Code:** [https://github.com/ScottCoffin/OEHHA-Data-Explorer](https://github.com/ScottCoffin/OEHHA-Data-Explorer)
 - **Screenshot:** ![Data Explorer](/assets/img/1.jpg)
 
 ---
@@ -25,8 +25,8 @@ An R/Shiny dashboard for searching, filtering, and exporting harmonized chemical
 
 Point-and-click interface to run PBPK and simpler TK simulations for PFAS, compare models to measurements, and export time-series results for analysis.
 
-- **Demo:** https://oehha.shinyapps.io/PFAS_TK/
-- **Code:** https://github.com/ScottCoffin/PFOS_PBPK_fork
+- **Demo:** [https://oehha.shinyapps.io/PFAS_TK/](https://oehha.shinyapps.io/PFAS_TK/)
+- **Code:** [https://github.com/ScottCoffin/PFOS_PBPK_fork](https://github.com/ScottCoffin/PFOS_PBPK_fork)
 - **Screenshot:** ![PFAS TK](/assets/img/2.jpg)
 
 ---
@@ -35,8 +35,8 @@ Point-and-click interface to run PBPK and simpler TK simulations for PFAS, compa
 
 Modern R implementation of the Leggett age-structured lead PBPK model with scenario templates for occupational and environmental exposures and exportable results.
 
-- **Demo:** https://oehha.shinyapps.io/LeggettPlus/
-- **Code:** https://github.com/ScottCoffin/Leggett-_lead_PBPK
+- **Demo:** [https://oehha.shinyapps.io/LeggettPlus/](https://oehha.shinyapps.io/LeggettPlus/)
+- **Code:** [https://github.com/ScottCoffin/Leggett-_lead_PBPK](https://github.com/ScottCoffin/Leggett-_lead_PBPK)
 - **Screenshot:** ![Leggett Plus](/assets/img/3.jpg)
 
 ---
