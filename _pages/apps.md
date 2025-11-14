@@ -17,8 +17,7 @@ An R/Shiny dashboard for searching, filtering, and exporting harmonized chemical
 
 - **Demo:** [https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/](https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/)
 - **Code:** [https://github.com/ScottCoffin/OEHHA-Data-Explorer](https://github.com/ScottCoffin/OEHHA-Data-Explorer)
-- **Screenshot:** ![Data Explorer](/assets/img/1.jpg)
- - **Screenshot:** ![Data Explorer](/assets/img/data_explorer%20logo.png)
+- **Screenshot:** <img src="/assets/img/data_explorer_logo-800.png" srcset="/assets/img/data_explorer_logo-480.png 480w, /assets/img/data_explorer_logo-800.png 800w, /assets/img/data_explorer_logo-1400.png 1400w" sizes="(max-width:800px) 100vw, 800px" alt="Data Explorer screenshot">
 
 ---
 
@@ -28,8 +27,7 @@ Point-and-click interface to run PBPK and simpler TK simulations for PFAS, compa
 
 - **Demo:** [https://oehha.shinyapps.io/PFAS_TK/](https://oehha.shinyapps.io/PFAS_TK/)
 - **Code:** [https://github.com/ScottCoffin/PFOS_PBPK_fork](https://github.com/ScottCoffin/PFOS_PBPK_fork)
-- **Screenshot:** ![PFAS TK](/assets/img/2.jpg)
- - **Screenshot:** ![PFAS TK](/assets/img/PFAS%20pk%20app.png)
+- **Screenshot:** <img src="/assets/img/PFAS_pk_app-800.png" srcset="/assets/img/PFAS_pk_app-480.png 480w, /assets/img/PFAS_pk_app-800.png 800w, /assets/img/PFAS_pk_app-1400.png 1400w" sizes="(max-width:800px) 100vw, 800px" alt="PFAS TK/PK app screenshot">
 
 ---
 
@@ -39,6 +37,8 @@ Modern R implementation of the Leggett age-structured lead PBPK model with scena
 
 - **Demo:** [https://oehha.shinyapps.io/LeggettPlus/](https://oehha.shinyapps.io/LeggettPlus/)
 - **Code:** [https://github.com/ScottCoffin/Leggett-\_lead_PBPK](https://github.com/ScottCoffin/Leggett-_lead_PBPK)
+
+- **Screenshot:** _coming soon_
 
 
 ---
