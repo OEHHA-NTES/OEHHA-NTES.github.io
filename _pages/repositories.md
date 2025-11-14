@@ -14,6 +14,7 @@ The NTES organization maintains public source code and applications on GitHub. V
 The following repositories are highlighted here:
 
 {% if site.data.repositories.github_repos %}
+
 <ul>
   {% for repo in site.data.repositories.github_repos %}
     <li><a href="https://github.com/{{ repo }}" target="_blank">{{ repo }}</a></li>

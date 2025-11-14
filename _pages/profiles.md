@@ -53,4 +53,3 @@ profiles:
       <p>Ph.D., Research Scientist IV</p>
       <p>Chemical Sciences</p>
 ---
-

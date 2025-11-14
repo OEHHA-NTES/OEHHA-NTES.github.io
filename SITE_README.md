@@ -22,6 +22,7 @@ Our work protects public health by providing state guidance for regulators, poli
 ## Technology
 
 This site uses:
+
 - **Jekyll** — Static site generator
 - **al-folio theme** — Clean, responsive academic website template
 - **GitHub Pages** — Hosting and deployment
@@ -30,6 +31,7 @@ This site uses:
 ## Quick Start
 
 ### Prerequisites
+
 - **Ruby** 3.0+ with Bundler
 - **Jekyll** (installed via Bundler)
 - **Pandoc** (for rendering code blocks)
@@ -37,20 +39,24 @@ This site uses:
 ### Local Development
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/OEHHA-NTES/OEHHA-NTES.github.io.git
    cd OEHHA-NTES.github.io
    ```
 
 2. **Install dependencies:**
+
    ```bash
    bundle install
    ```
 
 3. **Serve locally:**
+
    ```bash
    bundle exec jekyll serve --livereload
    ```
+
    Then visit `http://127.0.0.1:4000` in your browser.
 
 4. **Preview changes** as you edit files (live-reload enabled).
@@ -58,6 +64,7 @@ This site uses:
 ### Using Docker (Optional)
 
 If you prefer Docker:
+
 ```bash
 docker-compose up
 # Visit http://localhost:4000
@@ -94,35 +101,39 @@ See `INSTALL.md` for detailed setup instructions.
 ## Editing Content
 
 ### Add/Update a Page
+
 1. Create or edit a `.md` file in `_pages/`.
 2. Include YAML front matter (title, permalink, layout, etc.).
 3. Write content in Markdown.
 4. Save and refresh the local server to preview.
 
 **Example:**
+
 ```yaml
 ---
 layout: page
 title: My Page
 permalink: /my-page/
 ---
-
 # My Page Content
 
 This is a paragraph.
 ```
 
 ### Add a Blog Post
+
 1. Create a `.md` file in `_posts/` named `YYYY-MM-DD-title.md`.
 2. Include YAML front matter.
 3. Write your post in Markdown.
 
 ### Update Publications
+
 1. Edit `_bibliography/papers.bib` to add or modify BibTeX entries.
 2. Add `selected: true` to any entries you want featured on the homepage.
 3. Save; Jekyll will auto-render the publications page.
 
 ### Add News/Announcements
+
 1. Create a `.md` file in `_news/` named `YYYY-MM-DD-announcement.md`.
 2. Include YAML front matter.
 3. Content will auto-appear on the homepage feed.
@@ -130,6 +141,7 @@ This is a paragraph.
 ## Configuration
 
 Key settings in `_config.yml`:
+
 - `title` — Site title
 - `description` — Meta description
 - `keywords` — SEO keywords
@@ -147,13 +159,16 @@ See `_config.yml` for all available options and the [al-folio documentation](htt
 The site is automatically deployed to GitHub Pages when you push to the `main` branch. Builds are handled by GitHub Actions (see `.github/workflows/` if configured).
 
 ### Manual Deploy
+
 If using local Jekyll:
+
 ```bash
 bundle exec jekyll build
 # Output goes to _site/
 ```
 
 Then commit and push:
+
 ```bash
 git add .
 git commit -m "Update content"
@@ -170,6 +185,7 @@ We welcome contributions! Please:
 4. **Submit a pull request** with a brief description of changes.
 
 ### Guidelines
+
 - Follow Markdown style conventions (headers, lists, code blocks).
 - Test local builds before submitting PRs.
 - Include images in `assets/img/` and reference them with relative paths.

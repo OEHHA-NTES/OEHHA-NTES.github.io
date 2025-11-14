@@ -42,4 +42,3 @@ NTES develops and maintains a suite of open-source R/Shiny applications for toxi
 - **[OEHHA Data Explorer](https://oehha.shinyapps.io/OEHHA-Data-Explorer_v1-0/)** — Unify and interrogate thousands of chemicals across regulatory, toxicological, exposure, and production data.
 - **[OEHHA PFAS PK Modelling Application](https://oehha.shinyapps.io/PFAS_TK/)** — Simulate pharmacokinetics of PFAS across species, models, and exposure scenarios.
 - **[Leggett+ Lead PBPK](https://oehha.shinyapps.io/LeggettPlus/)** — Model age-specific lead kinetics for occupational and environmental exposures.
-
