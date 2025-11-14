@@ -2,46 +2,23 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Public GitHub repositories for the NTES organization.
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+The NTES organization maintains public source code and applications on GitHub. View the full list of repositories at:
 
-## GitHub users
+- https://github.com/OEHHA-NTES
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
+The following repositories are highlighted here:
 
 {% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<ul>
   {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+    <li><a href="https://github.com/{{ repo }}" target="_blank">{{ repo }}</a></li>
   {% endfor %}
-</div>
+</ul>
+{% else %}
+No repositories configured. Update `_data/repositories.yml`.
 {% endif %}

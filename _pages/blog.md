@@ -102,11 +102,8 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+    {% comment %} Blog removed: no posts will be shown {% endcomment %}
+    {% assign postlist = "" %}
 
     {% for post in postlist %}
 
