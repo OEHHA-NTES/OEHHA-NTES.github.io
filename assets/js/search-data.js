@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-ntes-applications",
-          title: "NTES Applications",
+        },{id: "nav-applications",
+          title: "Applications",
           description: "R/Shiny tools for toxicology, PFAS pharmacokinetics, and lead exposure modeling.",
           section: "Navigation",
           handler: () => {
