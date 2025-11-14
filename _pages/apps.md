@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NTES Applications
+title: Applications
 description: R/Shiny tools for toxicology, PFAS pharmacokinetics, and lead exposure modeling.
 permalink: /apps/
 nav: true
