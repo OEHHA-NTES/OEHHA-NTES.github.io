@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-applications",
-          title: "Applications",
+          title: "applications",
           description: "R/Shiny tools for toxicology, PFAS pharmacokinetics, and lead exposure modeling.",
           section: "Navigation",
           handler: () => {
