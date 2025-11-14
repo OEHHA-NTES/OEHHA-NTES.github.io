@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Applications
+title: applications
 description: R/Shiny tools for toxicology, PFAS pharmacokinetics, and lead exposure modeling.
 permalink: /apps/
 nav: true
@@ -47,5 +47,3 @@ Modern R implementation of the Leggett age-structured lead PBPK model with scena
 - To contribute: open an issue or pull request in the linked GitHub repository; each repo contains a README with local quick-start instructions.
 
 ---
-
-If you'd like, I can (1) replace the placeholder screenshots with specific images from the repo, (2) update the code links to use the `OEHHA-NTES` organization (where available), or (3) add one-line install/run instructions under each app.
