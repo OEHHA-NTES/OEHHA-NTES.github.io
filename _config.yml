@@ -2,19 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: "New Toxicology Evaluations Section (NTES) — OEHHA"
+first_name: New
+middle_name: Toxicology
+last_name: Evaluations Section
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  For program contacts and media inquiries, see the `about` page.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  The New Toxicology Evaluations Section (NTES) at the Office of Environmental
+  Health Hazard Assessment (OEHHA) provides independent, science-based
+  evaluations of the hazards and risks posed by chemicals in the environment
+  and consumer products, and develops new and scientifically valid approaches
+  for understanding chemical hazards. NTES evaluations support guidance levels,
+  regulatory priorities, and emergency responses to protect public health.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Content by the New Toxicology Evaluations Section at the <a href="https://oehha.ca.gov" target="_blank">Office of Environmental Health Hazard Assessment (OEHHA)</a>.
+  Site built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: oehha, ntes, toxicology, chemical-hazards, risk-assessment, environmental-health, drinking-water, air-emissions, safer-chemicals
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -86,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: NTES News
+blog_description: Scientific evaluations, guidance updates, and announcements from NTES
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
