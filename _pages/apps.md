@@ -36,7 +36,7 @@ Point-and-click interface to run PBPK and simpler TK simulations for PFAS, compa
 Modern R implementation of the Leggett age-structured lead PBPK model with scenario templates for occupational and environmental exposures and exportable results.
 
 - **Demo:** [https://oehha.shinyapps.io/LeggettPlus/](https://oehha.shinyapps.io/LeggettPlus/)
-- **Code:** [https://github.com/ScottCoffin/Leggett-_lead_PBPK](https://github.com/ScottCoffin/Leggett-_lead_PBPK)
+- **Code:** [https://github.com/ScottCoffin/Leggett-\_lead_PBPK](https://github.com/ScottCoffin/Leggett-_lead_PBPK)
 - **Screenshot:** ![Leggett Plus](/assets/img/3.jpg)
 
 ---
